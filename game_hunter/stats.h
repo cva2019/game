@@ -35,4 +35,17 @@ private:
     int x_pos_;
     int y_pos_;
 };
+class money1 : public BaseObject
+{
+public:
+   money1(void);
+    ~money1(void);
+
+    void Show(SDL_Renderer* screen);
+    void Init(SDL_Renderer* screen);
+    void SetPos(const int& x, const int& y) {x_pos_ = x; y_pos_ = y;};
+private:
+    int x_pos_;
+    int y_pos_;
+};
 #endif

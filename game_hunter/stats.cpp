@@ -33,14 +33,16 @@ void power::Show(SDL_Renderer* screen)
 void power::Init(SDL_Renderer* screen)
 {
   LoadImg("img//power.png", screen);
-  number_ = 1;
+  number_ = 4;
   if (position_list_.size() > 0)
   {
     position_list_.clear();
   }
 
   AddPos(20);
-
+  AddPos(70);
+  AddPos(120);
+  AddPos(170);
 }
 
 void power::Decrease()
@@ -49,14 +51,8 @@ void power::Decrease()
   position_list_.pop_back();
 }
 
-void power::InCrease()
-{
-    number_++;
-    int last_post = position_list_.back();
-    last_post += 40;
-    position_list_.push_back(last_post);
-}
 
+//Player Money
 
 money::money()
 {
@@ -76,6 +72,26 @@ void money::Init(SDL_Renderer* screen)
 
 
 void money::Show(SDL_Renderer* screen)
+{
+   rect_.x = x_pos_;
+   rect_.y = y_pos_;
+   Render(screen);
+}
+money1:: money1()
+{
+
+}
+money1::~money1()
+{
+
+}
+void money1::Init(SDL_Renderer* screen)
+{
+    LoadImg("img//money1.png", screen);
+}
+
+
+void money1::Show(SDL_Renderer* screen)
 {
    rect_.x = x_pos_;
    rect_.y = y_pos_;
