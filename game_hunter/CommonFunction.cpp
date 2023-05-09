@@ -2,8 +2,8 @@
 
 #include "CommonFunction.h"
 
-int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font, 
-                            const std::string& menu1, 
+int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
+                            const std::string& menu1,
                             const std::string& menu2,
                             const std::string& img_name)
 {
@@ -13,7 +13,7 @@ int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
 
     int size1 = menu1.length();
     int size2 = menu2.length();
-    
+
 
     int time = 0;
     int x = 0;
@@ -27,7 +27,7 @@ int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
 
     strcpy_s(labels[0], size1+1, ch1);
     strcpy_s(labels[1], size2+1, ch2);
-   
+
 
     SDL_Texture* menu[num];
     bool selected[num] = { 0, 0 };
@@ -49,9 +49,9 @@ int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
     pos[0].y = SCREEN_HEIGHT*0.8 - 80;
     pos[1].x = SCREEN_WIDTH*0.3+120;
     pos[1].y = SCREEN_HEIGHT*0.8 + 40;
-   
-    
-    
+
+
+
 
     BaseObject gBackground;
     bool ret = gBackground.LoadImg(img_file, g_screen);
@@ -125,7 +125,7 @@ int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
         }
 
         gBackground.Render(g_screen, NULL);
-    
+
 
         for (int i = 0; i < num; ++i)
         {
@@ -140,7 +140,7 @@ int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
             SDL_Delay(1000 / 30 - (SDL_GetTicks() - time));
     }
     return 0;
-    
+
 }
 
 bool SDLCommonFunction::CheckCollision(const SDL_Rect& object1, const SDL_Rect& object2)
@@ -155,7 +155,7 @@ bool SDLCommonFunction::CheckCollision(const SDL_Rect& object1, const SDL_Rect& 
     int top_b = object2.y;
     int bottom_b = object2.y + object2.h;
 
-    // Case 1: size object 1 < size object 2
+
     if (left_a > left_b && left_a < right_b)
     {
         if (top_a > top_b && top_a < bottom_b)
@@ -188,7 +188,7 @@ bool SDLCommonFunction::CheckCollision(const SDL_Rect& object1, const SDL_Rect& 
         }
     }
 
-    // Case 2: size object 1 < size object 2
+
     if (left_b > left_a && left_b < right_a)
     {
         if (top_b > top_a && top_b < bottom_a)
@@ -221,7 +221,7 @@ bool SDLCommonFunction::CheckCollision(const SDL_Rect& object1, const SDL_Rect& 
         }
     }
 
-    // Case 3: size object 1 = size object 2
+
     if (top_a == top_b && right_a == right_b && bottom_a == bottom_b)
     {
         return true;

@@ -60,13 +60,13 @@ typedef struct Input
 
 typedef struct Map
 {
-    int start_x_;// vị trí của x  x=?? ở ô thứ 10 thì là 10*640 x
-    int start_y_;//y
-    int max_x_;  /// ở ô thứ bao nhiêu start x / 64 lấy phần nguyên//id_x
-    int max_y_;   //id_y
-    int tile[MAX_MAP_Y][MAX_MAP_X];// x là cột còn y là dòng 
-    char* file_name_;// lưu tên file
-} Map;
+    int start_x_;
+    int start_y_;
+    int max_x_; 
+    int max_y_;  
+    int tile[MAX_MAP_Y][MAX_MAP_X];
+    char* file_name_;
+}Map;
 
 namespace SDLCommonFunction
 {
