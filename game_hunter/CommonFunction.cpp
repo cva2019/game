@@ -45,10 +45,10 @@ int SDLCommonFunction::ShowMenu(SDL_Renderer* g_screen, TTF_Font* font,
 
 
     SDL_Rect pos[num];
-    pos[0].x = SCREEN_WIDTH*0.3+120;
-    pos[0].y = SCREEN_HEIGHT*0.8 - 80;
-    pos[1].x = SCREEN_WIDTH*0.3+120;
-    pos[1].y = SCREEN_HEIGHT*0.8 + 40;
+    pos[0].x = SCREEN_WIDTH*0.3+150;
+    pos[0].y = SCREEN_HEIGHT*0.8 -100;
+    pos[1].x = SCREEN_WIDTH*0.3+150;
+    pos[1].y = SCREEN_HEIGHT*0.8;
 
 
 
