@@ -15,7 +15,7 @@ Trò chơi đặc biệt bởi việc nhân vật không mất mạng khi rơi x
 3. Chọn "Play" để bắt đầu trò chơi.
 
 ## Hướng dẫn chơi
- Sử dụng các mũi tên hướng lên, sang phải, sang trái để di chuyển nhân vật. Còn khi muốn bắn đạn chúng ta dùng mũi tên hướng xuống
+ Sử dụng các phím mũi tên hướng lên, sang phải, sang trái để di chuyển nhân vật. Còn khi muốn bắn đạn chúng ta dùng phím mũi tên hướng xuống
 
 ## Các chức năng chính
 
