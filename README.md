@@ -1,12 +1,15 @@
 # game
-Họ tên: Cao Vân Anh
-Mã SV: 22026558
-Lớp: K67 J
+
+## Họ tên: Cao Vân Anh
+## Mã SV: 2202655
+## Lớp: K67 J
+
 # HUNTER
 ## Ý tưởng của game
 
 Hunter là một trò chơi bắn súng đơn giản nhưng gây nghiện, trong đó người chơi sẽ nhập vai thành một thợ săn và tiêu diệt các quái vật trong một bản đồ duy nhất. Mục tiêu của người chơi là hoàn thành bản đồ trong khoảng thời gian 200 giây hoặc cho đến khi hết 4 mạng.
 Trò chơi đặc biệt bởi việc nhân vật không mất mạng khi rơi xuống vực. Tuy nhiên, người chơi sẽ bị đưa trở lại vị trí ban đầu và cũng sẽ trở về trạng thái ban đầu nếu bị bắn bởi quái vật. Sử dụng kỹ năng của bạn để tránh những tình huống không mong muốn và chiến thắng trong trò chơi.
+<<<<<<< HEAD
 
 ## Tại sao lại chọn game
   
@@ -51,6 +54,7 @@ một môi trường độc đáo và có thêm các thử thách và quái vậ
   6. *Nút Reset*:  tạo ra một nút chơi lại cho người chơi
 
 ## Tài Liệu Tham Khảo
+
  Các trang mà mình đã dùng để làm cho game của mình
  1. Âm thanh : https://freesound.org/
  2. Hình ảnh và đồ họa cho game : https://www.pinterest.com/ và https://www.piskelapp.com/
