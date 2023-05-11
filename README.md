@@ -7,7 +7,7 @@ Trò chơi đặc biệt bởi việc nhân vật không mất mạng khi rơi x
 ### Một số hình ảnh của game 
  
  
-##
+
 ## Cách chạy chương trình
 
 1. Tải file zip về giải nén 
@@ -43,7 +43,8 @@ một môi trường độc đáo và có thêm các thử thách và quái vậ
 4. *Thêm tính năng đa người chơi*: Đưa vào tính năng đa người chơi cho phép người chơi cạnh tranh hoặc hợp tác với nhau. Bạn có thể thiết kế chế độ chơi đối kháng hoặc chế độ hợp tác để người chơi có thể thử thách và tương tác với nhau.
 
 5. *Nâng cao hình ảnh và âm thanh*:  Nâng cấp hình ảnh và âm thanh sẽ tạo ra một trải nghiệm trực quan và đáng ngạc nhiên hơn cho người chơi. Cân nhắc cải thiện đồ họa, hiệu quả hơn
-6.*Nút Reset*:  tạo ra một nút chơi lại cho người chơi
+
+  6. *Nút Reset*:  tạo ra một nút chơi lại cho người chơi
 
 ## Tài Liệu Tham Khảo
 
