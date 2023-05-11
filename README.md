@@ -1,8 +1,8 @@
 # game
 
-## Họ tên: Cao Vân Anh
-## Mã SV: 2202655
-## Lớp: K67 J
+### Họ tên: Cao Vân Anh
+### Mã SV: 22026558
+### Lớp: K67 J
 
 # HUNTER
 ## Ý tưởng của game
