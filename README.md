@@ -9,7 +9,7 @@
 
 Hunter là một trò chơi bắn súng đơn giản nhưng gây nghiện, trong đó người chơi sẽ nhập vai thành một thợ săn và tiêu diệt các quái vật trong một bản đồ duy nhất. Mục tiêu của người chơi là hoàn thành bản đồ trong khoảng thời gian 200 giây hoặc cho đến khi hết 4 mạng.
 Trò chơi đặc biệt bởi việc nhân vật không mất mạng khi rơi xuống vực. Tuy nhiên, người chơi sẽ bị đưa trở lại vị trí ban đầu và cũng sẽ trở về trạng thái ban đầu nếu bị bắn bởi quái vật. Sử dụng kỹ năng của bạn để tránh những tình huống không mong muốn và chiến thắng trong trò chơi.
-<<<<<<< HEAD
+
 
 ## Tại sao lại chọn game
   
