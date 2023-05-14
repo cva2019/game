@@ -22,7 +22,6 @@ static Mix_Chunk* gsound3=NULL;
 static Mix_Chunk* gsound4=NULL;
 
 
-
 //Screen
 const int FRAMES_PER_SECOND = 30;
 const int SCREEN_WIDTH = 1280;
