@@ -19,7 +19,7 @@ static SDL_Event g_event;
 static Mix_Chunk* gsound1=NULL;
 static Mix_Chunk* gsound2=NULL;
 static Mix_Chunk* gsound3=NULL;
-static Mix_Chunk* gsound4=NULL;
+
 
 
 //Screen
