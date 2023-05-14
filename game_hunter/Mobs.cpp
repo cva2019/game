@@ -457,6 +457,7 @@ void Mobs::CheckToMap(Map& g_map)
   }
 }
 }
+}
 
 void Mobs::Show(SDL_Renderer* des)
 {
